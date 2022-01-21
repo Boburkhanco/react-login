@@ -1,0 +1,15 @@
+.header__nav__list{
+    display: flex;
+    list-style-type: none;
+    &-item{
+        text-decoration: none;
+        color: #000;
+       margin-right: 15px;
+       padding: 5px 10px;
+       background-color: #ccc;
+       border-radius: 4px;
+    }
+}
+.active{
+    background-color: gold;
+}

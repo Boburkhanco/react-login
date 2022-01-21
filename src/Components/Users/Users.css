@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(212, 255, 239);
+}
+.messaging{
+    width: 100%;
+    display: flex;
+}
+.users{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border: .5px solid rgb(226, 226, 226);
+    max-height: 92.5vh;
+    overflow: scroll;
+    text-decoration: none;
+}
+.fixed__bar{
+    display: flex;
+    width: 30%;
+    height: 50px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    background-color: #fff;
+    position: fixed;
+}
+.users__search{
+    width: 86%;
+    height: 30px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 7px;
+    background-color: rgb(238, 238, 238);
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 14px;
+    padding-left: 10px;
+    color: rgb(197, 196, 196);
+}
+.users__edit{
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    background-image: url("./../../Assets/images/edit.svg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    transition: .2s;
+}
+.users__edit:hover{
+    background-color: #ccc;
+    cursor: pointer;
+    transition: .3s;
+}
+.user{
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-right: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.user:active{
+    background-color: rgb(81, 152, 245);
+    color: #fff;
+}
+.user-one{
+    padding-top:53px;
+}
+.user__avatar{
+    width: 50px;
+    height: 50px;
+    background-color: #356;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-image: url("./../../Assets/images/2022-01-18 16.49.37.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.user__content{
+    display: flex;
+    width: 85%;
+    height: 50px;
+    border-bottom: .4px solid #ccc;
+    padding-bottom: 10px;
+    cursor: inherit;
+}
+.user__content-inner{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    width: 89%;
+}
+.user__content-title{
+    margin: 0;
+    font-family: roboto;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    font-weight: 500;
+    color: #000;
+    cursor: default;
+}
+.user__content-text{
+    font-size: 12px;
+    margin: 0;
+    font-family: roboto;
+    font-weight: 300;
+    overflow: hidden;
+    color: rgb(153, 153, 153);
+    cursor:default;
+}
+.user__content-options{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4px;
+}
+.options-time{
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 11px;
+    color: rgb(126, 126, 126);
+    cursor: default;
+}
+.options-count{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 182, 182);
+    color: #fff;
+    font-family: roboto;
+    font-weight: 200;
+    font-size: 10px;
+    cursor: default;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+}
+.fixed__footer{
+    display: flex;
+    /* top: 500px; */
+    bottom: 10px;
+    width: 30%;
+    height: 50px;
+    padding: 10px 5px;
+    /* margin-top: -150px; */
+    box-sizing: border-box;
+    justify-content: space-around;
+    background-color: #fff;
+    position: fixed;
+}
+.fixed__footer-opt{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.i1{
+    background-image: url("./../../Assets/images/user-circle.svg");
+}
+.i2{
+    background-image: url("./../../Assets/images/phone-alt.svg");
+}
+.i3{
+    background-image: url("./../../Assets/images/comments.svg");
+}
+.i4{
+    background-image: url("./../../Assets/images/2022-01-18 16.49.37.jpg");
+}
+

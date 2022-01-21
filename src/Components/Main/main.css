@@ -1,0 +1,89 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 69.7%;
+}
+.fixed__account{
+    width: 69.7%;
+    height: 50px;
+    position: fixed;
+    background-color: #fff;
+    border: .5px solid rgb(226, 226, 226);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+.fixed__account-avatar{
+    width: 40px;
+    height: 40px;
+    background-color: #356;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-image: url("./../../Assets/images/AbdukarimMirzayev.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.fixed__account-content{
+    padding-left: 10px;
+}
+.fixed__account-title{
+    font-family: roboto;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+.fixed__account-text{
+    margin: 0;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 13px;
+    color: rgba(66, 66, 66, 0.467);
+}
+.pad{
+    width: 100%;
+    height: 50px;
+}
+.chatscreen{
+    width: 100%;
+    box-sizing: border-box;
+    border:.5px solid rgb(226, 226, 226);
+    min-height: 80vh;
+    background: linear-gradient(130deg,rgb(138, 0, 173), blue);
+}
+.type__bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: .2px;
+}
+.type__bar-file{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    background-image: url("./../../Assets/images/images.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    transition: .2s;
+}
+.type__bar-file:hover{
+    cursor:pointer;
+    background-color: rgb(226, 226, 226);
+    transition: .4s;
+}
+.type__bar-input{
+    width: 85%;
+    height: 48px;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 13px;
+    color: #222;
+    padding-left: 10px;
+    align-self: flex-start;
+    border: 0;
+}
